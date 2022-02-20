@@ -1,0 +1,32 @@
+Let user =
+[
+    {
+        "id":1,
+        "name":"sudhir",
+        "city":"chennai",
+        "role":"admin"
+
+    },
+
+     {
+        "id":2,
+        "name":"patidar",
+        "city":"pune",
+        "role":"user"
+
+    },
+
+     {
+        "id":3,
+        "name":"ram",
+        "role":"admin"
+
+    }
+
+]
+
+for(i=0;i<user.length;i++)
+{
+    if(user[i].log=='admin')
+    console.log('<li> ${user[i].name}</li>')
+}

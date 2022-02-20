@@ -1,0 +1,35 @@
+h1{
+            color: orange;
+            background-color: green;
+        }
+        #mainHeading{
+            color: red;
+            text-align: center;
+            font-size: 30px;
+            background-color: rgb(197, 197, 221);
+        }
+        .card{
+            height: 440px;
+            width: 25%;
+            background-color: yellow;
+            float: left;
+            margin-left: 7%;
+            overflow: scroll;
+
+        }
+        .cardHeading{
+            color: white;
+            text-align: center;
+
+        }
+        .cardimage{
+            width: 100%; 
+            height: 200px;
+
+        }
+        .purple{
+            background-color: purple;
+        }
+        .crad{
+            background-color: pink;
+        }

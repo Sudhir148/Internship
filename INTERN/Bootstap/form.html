@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>
+        Bootstrap
+    </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <div class=" panel panel-primary">
+            <div class="panel-heading">
+                Employee Form
+            </div>
+            <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                        <label form="form-control" for="fname"> FirstName</label>
+                        <input class="form-control" id="fname" required name="fname" />
+                    </div>
+
+                    <div class="form-group">
+                        <label form="form-control" for="lname"> LastName</label>
+                        <input class="form-control " id="lname" required name="lname" />
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label form="form-control" for="email"> Email</label>
+                                <input class="form-control" id="email" type="email" name="email" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="password" form=form-control> Password</label>
+                                <input id="password" class="form-control" maxlength="8" type="password" name="pwd" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--radio-->
+
+                    <label> Gender</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="female" name="Gender" />Female
+                        </label>
+                        <label>
+                            <input type="radio" value="male" name="Gender" /> Male
+                        </label>
+                    </div>
+                </form>
+
+                <!--chechbox-->
+
+                <label>Language</label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="Javascript" name="Lang" />Javascript
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Node" name="Lang" />Node
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>City</label>
+                    <select class="form-control" placeholder="Select" name="city">
+                        <option value=""> Delhi</option>
+                        <option value=""> Mumbai</option>
+                        <option value=""> Indore</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comment"> Commet</label>
+                    <textarea class="form-control" name="comment" id="comment"  rows="10"></textarea>
+                </div>
+                <button class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
